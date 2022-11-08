@@ -1,3 +1,6 @@
+import EventList from '../components/events/event-list';
+
+// Dummy Data
 import { getFeaturedEvents } from '../dummy-data';
 
 export default function Home() {
@@ -6,6 +9,7 @@ export default function Home() {
 
   return (
     <div>
+      <EventList items={featuredEvents} />
     </div>
   )
 }
