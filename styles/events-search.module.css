@@ -29,6 +29,7 @@
 
 .control label {
     font-weight: bold;
+    color:rgba(0, 0, 0, 0.2);
 }
 
 .control select {

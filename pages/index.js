@@ -10,6 +10,6 @@ export default function Home() {
   return (
     <div>
       <EventList items={featuredEvents} />
-    </div>
+    </div >
   )
 }

@@ -12,9 +12,7 @@ const MainHeader = () => {
             </div>
             <nav className={classes.navigation}>
                 <ul>
-                    <li>
-                        <Link href='/events'>Browse All Events</Link>
-                    </li>
+                    <Link href='/events'>Browse All Events</Link>
                 </ul>
             </nav>
         </header>
