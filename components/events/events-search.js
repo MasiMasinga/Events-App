@@ -25,15 +25,15 @@ const EventsSearch = (props) => {
             <div className={classes.controls}>
                 <div className={classes.control}>
                     <label htmlFor='year'>Year</label>
-                    <select id='year' ref={yearInputRef}>
+                    <select id='year' ref={yearInputRef} style={{ color: 'black' }}>
                         <option value='2021'>2021</option>
                         <option value='2022'>2022</option>
                     </select>
                 </div>
                 <div className={classes.control}>
                     <label htmlFor='month'>Month</label>
-                    <select id='month' ref={monthInputRef}>
-                        <option value='1'>January</option>
+                    <select id='month' ref={monthInputRef} style={{ color: 'black' }}>
+                        <option value='1' >January</option>
                         <option value='2'>February</option>
                         <option value='3'>March</option>
                         <option value='4'>April</option>
